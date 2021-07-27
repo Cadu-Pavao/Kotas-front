@@ -1,32 +1,42 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <b-navbar toggleable="lg" class="navbar display-none">
+        <img src="./assets/logo.png" class="icons" alt="Logo Kotas" />
+
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav>
+            <form action="#" class="nav-search">
+              <img src="./assets/search.png" alt="">
+              <input type="search" name="searchBar" id="searchBar" placeholder="O que você esta propcurando?"/>
+            </form>
+          </b-navbar-nav>
+          
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="nav-right">
+            <div class="navbar-item">
+              <img src="./assets/plus.png"/>
+              <h4>Criar grupo</h4>
+            </div>
+
+            <div class="navbar-item">
+              <img src="./assets/Cube.png"/>
+              <h4>Meus Grupos</h4>
+            </div>
+
+            <div class="navbar-item">
+              <img src="./assets/Bell.png"/>
+              <b-badge class="alert-badge" variant="danger">15</b-badge>
+            </div>
+
+            <div class="navbar-item">
+              <img src="./assets/joao_xs.png"/>
+            </div>
+          </b-navbar-nav>
+        </b-collapse>
+    </b-navbar>
+
+    <router-view />
   </div>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
