@@ -73,24 +73,6 @@
                     <p>Ana</p>
                 </div>
               </div>
-              <!-- <b-container>
-                <b-row class="justify-content-md-center">
-                  <b-col md="2">
-                    <img src="../assets/Maria.png" class="img-48"/>
-                    <p>Maria</p>
-                  </b-col>
-
-                  <b-col md="2">
-                    <img src="../assets/Filipe.png" class="img-48"/>
-                    <p>Filipe</p>
-                  </b-col>
-
-                  <b-col md="2">
-                    <img src="../assets/Ana.png" class="img-48"/>
-                    <p>Ana</p>
-                  </b-col>
-                </b-row>
-              </b-container> -->
             </div>
 
             <div class="box">

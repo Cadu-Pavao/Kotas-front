@@ -1,4 +1,8 @@
-# app
+# Kotas web development test
+
+This repository is a WebApp that was developed using Vue.JS, SCSS and Bootstrap, He's a test for the startup Kotas.
+
+![Build Status](https://img.shields.io/static/v1?label=Status&message=InProgress&color=<COLOR>&style=<STYLE>&logo=<LOGO>) 
 
 ## Project setup
 ```
